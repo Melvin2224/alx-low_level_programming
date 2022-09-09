@@ -9,16 +9,14 @@ int main(void)
 {
 	char alpha = 'a';
 	int i;
+	int j;
+	char alpha2;
 
 	for (i = 0; i < 26; ++i)
 	{
 		putchar(alpha);
 		alpha += 1;
 	}
-
-	char alpha2;
-	int j;
-	
 	alpha2 = 'A';
 	for (j = 0; j < 26; ++j)
 	{
