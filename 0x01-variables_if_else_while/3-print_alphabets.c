@@ -16,7 +16,7 @@ int main(void)
 		alpha += 1;
 	}
 
-	char alpha1 = 'A';
+	char alpha2 = 'A';
 	int j;
 
 	for (j = 0; j < 26; ++j)
