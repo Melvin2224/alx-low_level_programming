@@ -16,13 +16,14 @@ int main(void)
 		alpha += 1;
 	}
 
-	char alpha2 = 'A';
+	char alpha2;
 	int j;
-
+	
+	alpha2 = 'A';
 	for (j = 0; j < 26; ++j)
 	{
-		putchar(alpha1);
-		alpha1 += 1;
+		putchar(alpha2);
+		alpha2 += 1;
 	}
 	putchar('\n');
 	return (0);
