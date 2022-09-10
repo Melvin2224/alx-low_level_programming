@@ -7,6 +7,7 @@
  */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful - Dora Korpar,2015-10-\n19\n");
+	fprintf(stderr, "and that piece of art is useful\" "
+		 "- Dora Korpar, 2015-10-\n19\n");
 	return (1);
 }
