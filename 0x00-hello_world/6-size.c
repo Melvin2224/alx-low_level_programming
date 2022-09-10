@@ -9,6 +9,17 @@
 int main(void)
 {
 
+	printf("Size of char: %i byte(s)", sizeof(char));
+
+	printf("\nSize of int: %i byte(s)", sizeof(int));
+
+	printf("\nSize of long int: %i byte(s)", sizeof(unsigned int));
+
+	printf("\nSize of long long int: %i byte(s)", sizeof(long int));
+
+	printf("\nSize of float: %d byte(s)\n", sizeof(float));
+
+
 	printf("Size of char: %li byte(s)", sizeof(char));
 	printf("\nSize of int: %li byte(s)", sizeof(int));
 	printf("\nSize of long int: %li byte(s)", sizeof(unsigned int));
