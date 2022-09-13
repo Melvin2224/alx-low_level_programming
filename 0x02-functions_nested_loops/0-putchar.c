@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-
+/**
+ * main - Entry point, where are program starts executing from
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	print_putchar();
