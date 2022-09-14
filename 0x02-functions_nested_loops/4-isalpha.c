@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  _isalpha(int c) - This function, checks if the value of the
- *  variable c is letter
+ * _isalpha - This function checks if the variable c
+ * is a letter, in uppercase or in lowercase
  *
- *  Return: Always 0
+ * Return: if successful 1, if not 0
  */
 int _isalpha(int c)
 {
