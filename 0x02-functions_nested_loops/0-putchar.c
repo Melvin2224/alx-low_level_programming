@@ -8,23 +8,13 @@
  */
 int main(void)
 {
-	print_putchar();
+	char name[] = "_putchar";
+	int i;
+	
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(name[i]);
+	}
+	_putchar('\n');
 	return (0);
-}
-/**
- * print_putchar - Prints _putchar
- *
- * Return: Always 0 (Success)
- */
-void print_putchar(void)
-{
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
 }
