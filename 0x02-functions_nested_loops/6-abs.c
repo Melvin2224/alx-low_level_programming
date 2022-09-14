@@ -4,7 +4,7 @@
 /**
  * _abs - this function, returns the non-negative
  * value of a number ie the absolute value
- * @num - First operrand
+ * @num: first operrand
  *
  * Return: depends on condition
  */
@@ -12,11 +12,11 @@ int _abs(int num)
 {
 	if (num < 0)
 	{
-		return -num;
+		return (-num);
 	}
 	else
 	{
-		return num;
+		return (num);
 	}
 	return (0);
 }
