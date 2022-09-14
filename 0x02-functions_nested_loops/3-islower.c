@@ -2,8 +2,9 @@
 
 
 /**
- * _islower() - This function will check if a variable 
+ * _islower-This function will check if a variable
  * is in lower case or upper case
+ * @c: first operrand
  *
  * Return: Always 0
  */
@@ -15,6 +16,6 @@ int _islower(int c)
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
