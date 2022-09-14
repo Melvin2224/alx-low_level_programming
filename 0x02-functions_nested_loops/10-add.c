@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int add - Finds the sum of two integers
+ * add - Finds the sum of two integers
  * @num: First parameter
  * @num1: second parameter
  *
