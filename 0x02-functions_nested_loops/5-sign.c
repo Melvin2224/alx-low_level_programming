@@ -30,4 +30,5 @@ int print_sign(int n)
 		putchar('-');
 		return (i);
 	}
+	return (0);
 }
