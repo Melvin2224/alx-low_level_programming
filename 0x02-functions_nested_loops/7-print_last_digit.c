@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_last_digit - this function, returns the last digit 
+ * print_last_digit - This function will display the last digit of a number 
  * of a number.
  * @num: first operrand
  *
