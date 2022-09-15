@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
  * main - Fizbuzz
  *
@@ -12,6 +11,7 @@ int main(void)
 	char first[] = "Fizz";
 	char third[] = "FizzBuzz";
 	char second[] = "Buzz";
+
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
