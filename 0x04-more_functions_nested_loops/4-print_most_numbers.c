@@ -2,7 +2,8 @@
 
 
 /**
- * print_most_numbers - This function prints the nubers 0-9 except 2/4
+ * print_most_numbers - This function prints the numbers 0-9
+ * excluding 2 and 4
  *
  * Return: Always 0
  */
@@ -16,6 +17,6 @@ void print_most_numbers(void)
 		{
 			_putchar(i);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
