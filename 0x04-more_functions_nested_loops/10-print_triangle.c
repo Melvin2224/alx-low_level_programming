@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * print_triangle - This function, prints a triangle pattern
  * @size:determines the size of the triangle
@@ -9,25 +8,16 @@
  */
 void print_triangle(int size)
 {
-	int i, j, k;
+	int row, column, k;
 
-	if (size > 0)
+	if (size <= 0)
+		_putchar('\n');
+	for (row = 0; row < size; row++)
 	{
-		for (i = 0; i < size; i++)
-		{
-			for (j = size - i; j > 1; j--)
-			{
-				_putchar(' ');
-			}
-			for (k = i + j; k >= i; k--)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
-	else if (size <= 0)
-	{
+		for (column = size - row; column > 1; column--)
+			_putchar(' ');
+		for (k = row + column; k >= 1; k--)
+			_putchar('#');
 		_putchar('\n');
 	}
 }
