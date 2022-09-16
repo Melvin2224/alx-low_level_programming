@@ -1,6 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * _isupper - function to check for uppercase
+ * @c: the character to be checked
+ *
+ * Return: return type is int
+ * File: main.h
+ * Description: custom function prototype declration
+ */
+
+
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
