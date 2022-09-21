@@ -17,7 +17,7 @@ void puts_half(char *str)
 	if (length % 2 == 0)
 	{
 		half = length / 2;
-		for (i = o; i < length; ++i)
+		for (i = 0; i < length; ++i)
 		{
 			if (i >= half)
 			{
@@ -27,7 +27,7 @@ void puts_half(char *str)
 	}
 	else if (length % 2 != 0)
 	{
-		half = (length - 1) / 2
+		half = (length - 1) / 2;
 		for (j = 0; j < length; ++j)
 		{
 			if (j > n)
