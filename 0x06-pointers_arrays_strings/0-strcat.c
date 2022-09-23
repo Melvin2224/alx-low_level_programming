@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 
 /**
  * _strcat - This function takes two strings as arguments and
@@ -11,13 +11,13 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int dest_length = strlen(dest);
+	int dest_len = strlen(dest);
 	int i;
 
-	for (i = 0; i src[i] != '\0'; ++i)
+	for (i = 0; src[i] != '\0'; ++i)
 	{
-		dest[dest_length + i] = src[i];
+		dest[dest_len] = src[i];
+		dest_len += 1;
 	}
-	dest[dest_length + i] = '\0';
 	return (dest);
 }
