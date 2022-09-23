@@ -1,7 +1,6 @@
 #include "main.h"
 #include <string.h>
 
-
 /**
  * _strncat - Acceps two string arguments and concatenantes from the value
  * of the second one up to n to the first one
@@ -15,10 +14,9 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int dest_len = strlen(dest);
-	int src_len = strlen(src);
 	int i;
 
-	for (i = 0; i < n && i <= str_len; ++i)
+	for (i = 0; i < n && src[i] != '\0'; ++i)
 	{
 		dest[dest_len + i] = src[i];
 	}
