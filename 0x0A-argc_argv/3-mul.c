@@ -10,19 +10,16 @@
  */
 int main(int __attribute__ ((unused)) argc, char *argv[])
 {
-	int first, second, result;
+	int a, b, result;
 
-	if (argc > 1)
-	{
-		first = atoi(argv[1]);
-		second = atoi(argv[2]);
-		result = first * second;
-		printf("%d\n", result);
-	}
-	else if (argc <= 2)
+	if (argc <= 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	result = a * b;
+	printf("%d\n", result);
 	return (0);
 }
