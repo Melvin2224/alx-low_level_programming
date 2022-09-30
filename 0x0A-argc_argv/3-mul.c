@@ -19,7 +19,7 @@ int main(int __attribute__ ((unused)) argc, char *argv[])
 		result = first * second;
 		printf("%d\n", result);
 	}
-	else if (argc <= 1)
+	else if (argc <= 2)
 	{
 		printf("Error\n");
 		return (1);
