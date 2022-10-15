@@ -24,4 +24,14 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		printf("\n");
 		va_end(numbers);
 	}
+	else if (separator == NULL)
+	{
+
+		for (i = 0; i < n; i++)
+		{
+			printf("%d", va_arg(numbers, int));
+		}
+		print("\n");
+		va_end(numbers);
+	}
 }
