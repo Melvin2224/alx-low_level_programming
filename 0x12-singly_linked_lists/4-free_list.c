@@ -19,4 +19,5 @@ void free_list(list_t *head)
 		move = move->next;
 		free(aux);
 	}
+	head = NULL;
 }
