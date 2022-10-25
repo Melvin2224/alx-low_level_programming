@@ -12,12 +12,12 @@ void free_list(list_t *head)
 {
 	list_t *move, *aux;
 
-	move = *head;
+	move = head;
 	while (move != NULL)
 	{
 		aux = move;
 		move = move->next;
 		free(aux);
 	}
-	*head = NULL;
+	head = NULL;
 }
